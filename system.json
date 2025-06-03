@@ -20,6 +20,6 @@
   "primaryTokenAttribute": "hp",
 
   "manifest": "https://raw.githubusercontent.com/Jcmalanco/Stars-of-the-city/main/system.json",
-  "download": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt/archive/refs/heads/main.zip",
-  "readme": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt/blob/main/README.md"
+  "download": "https://github.com/Jcmalanco/Stars-of-the-city/archive/refs/heads/main.zip",
+  "readme": "https://github.com/Jcmalanco/Stars-of-the-city/blob/main/README.md"
 }
