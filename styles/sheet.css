@@ -1,0 +1,30 @@
+.sheet.actor {
+  background-color: #111;
+  color: #f0f0f0;
+  font-family: "Segoe UI", sans-serif;
+  padding: 1rem;
+}
+
+.sheet-tabs .item {
+  margin-right: 5px;
+  padding: 4px 10px;
+  background: #222;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sheet-tabs .item.active {
+  background: #555;
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #999;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.sheet-header {
+  align-items: center;
+}

@@ -1,0 +1,25 @@
+{
+  "id": "stars-of-the-city",
+  "title": "Stars of the City",
+  "description": "A narrative combat system for Foundry VTT inspired by Stars of the City.",
+  "version": "1.0.0",
+  "author": "Jcmalanco",
+  "type": "system",
+  "system": "stars-of-the-city",
+  "coreVersion": "11",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "13",
+  "templateVersion": 1,
+
+  "scripts": ["module/main.js"],
+  "styles": ["styles/sheet.css"],
+  "esmodules": [],
+
+  "actorTypes": ["character"],
+  "packs": [],
+  "primaryTokenAttribute": "hp",
+
+  "manifest": "https://raw.githubusercontent.com/Jcmalanco/Stars-of-the-city-fvtt/main/system.json",
+  "download": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt/archive/refs/heads/main.zip",
+  "readme": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt/blob/main/README.md"
+}

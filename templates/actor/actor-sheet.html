@@ -1,0 +1,42 @@
+<form class="sheet actor" autocomplete="off">
+  <header class="sheet-header flexrow">
+    <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
+    <div class="header-details">
+      <h1><input name="name" value="{{actor.name}}" /></h1>
+    </div>
+  </header>
+
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="main">Stats</a>
+    <a class="item" data-tab="status">Status</a>
+    <a class="item" data-tab="skills">Skills</a>
+  </nav>
+
+  <section class="sheet-body">
+    <div class="tab" data-tab="main">
+      <h2>Attributes</h2>
+      <ul>
+        <li>Might: <input type="number" name="system.attributes.might" value="{{system.attributes.might}}" /></li>
+        <li>Instinct: <input type="number" name="system.attributes.instinct" value="{{system.attributes.instinct}}" /></li>
+        <li>Will: <input type="number" name="system.attributes.will" value="{{system.attributes.will}}" /></li>
+      </ul>
+
+      <h2>Hit Points</h2>
+      <p>HP: <input name="system.hp.value" value="{{system.hp.value}}" type="number" /> /
+             <input name="system.hp.max" value="{{system.hp.max}}" type="number" /></p>
+      <button type="button" class="heal-button">Snack: +10 HP</button>
+    </div>
+
+    <div class="tab" data-tab="status">
+      <h3>Ailments</h3>
+      <p>Bleed: <input type="number" name="system.ailments.bleed" value="{{system.ailments.bleed}}" /></p>
+      <p>Burn: <input type="number" name="system.ailments.burn" value="{{system.ailments.burn}}" /></p>
+    </div>
+
+    <div class="tab" data-tab="skills">
+      <h3>Narrative Abilities</h3>
+      <p>Describe narrative actions and combat effects here.</p>
+      <button type="button" class="roll-skill">Roll 2d10 + Might</button>
+    </div>
+  </section>
+</form>
