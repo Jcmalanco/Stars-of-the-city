@@ -17,6 +17,7 @@
 
   "actorTypes": ["character"],
 
+<<<<<<< HEAD
   "scripts": [
     "scripts/actor/character.js",
     "scripts/actor-sheet.js"
@@ -34,4 +35,9 @@
 
   "manifest": "https://raw.githubusercontent.com/Jcmalanco/Stars-of-the-city/main/system.json",
   "download": "https://github.com/Jcmalanco/Stars-of-the-city/archive/refs/heads/main.zip"
+=======
+  "manifest": "https://raw.githubusercontent.com/Jcmalanco/Stars-of-the-city/main/system.json",
+  "download": "https://github.com/Jcmalanco/Stars-of-the-city/archive/refs/heads/main.zip",
+  "readme": "https://github.com/Jcmalanco/Stars-of-the-city/blob/main/README.md"
+>>>>>>> 0414b6a82260060486377400714554bbf1ec4630
 }
