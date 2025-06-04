@@ -1,9 +1,6 @@
 <form class="sheet actor" autocomplete="off">
-  <header class="sheet-header flexrow">
-    <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
-    <div class="header-details">
-      <h1><input name="name" value="{{actor.name}}" /></h1>
-    </div>
+  <header>
+    <h1><input name="name" value="{{actor.name}}" /></h1>
   </header>
 
   <nav class="sheet-tabs tabs" data-group="primary">
@@ -35,8 +32,7 @@
 
     <div class="tab" data-tab="skills">
       <h3>Narrative Abilities</h3>
-      <p>Describe narrative actions and combat effects here.</p>
-      <button type="button" class="roll-skill">Roll 2d10 + Might</button>
+      <p>Describe narrative actions and combat effects here (e.g., “Mincemeat”, “Sneak Attack”).</p>
     </div>
   </section>
 </form>
