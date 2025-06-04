@@ -16,15 +16,3 @@
 .sheet-tabs .item.active {
   background: #555;
 }
-
-.profile {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #999;
-  margin-right: 10px;
-  object-fit: cover;
-}
-
-.sheet-header {
-  align-items: center;
-}
