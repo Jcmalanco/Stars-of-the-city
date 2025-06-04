@@ -8,10 +8,10 @@
       "name": "Jcmalanco"
     }
   ],
-  "url": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt",
+  "url": "https://github.com/Jcmalanco/Stars-of-the-city",
   "license": "MIT",
-  "readme": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt/blob/main/README.md",
-  "bugs": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt/issues",
+  "readme": "https://github.com/Jcmalanco/Stars-of-the-city/blob/main/README.md",
+  "bugs": "https://github.com/Jcmalanco/Stars-of-the-city/issues",
 
   "system": {
     "name": "stars-of-the-city",
@@ -38,6 +38,6 @@
     "requires": []
   },
 
-  "manifest": "https://raw.githubusercontent.com/Jcmalanco/Stars-of-the-city-fvtt/main/system.json",
-  "download": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt/archive/refs/heads/main.zip"
+  "manifest": "https://raw.githubusercontent.com/Jcmalanco/Stars-of-the-city/main/system.json",
+  "download": "https://github.com/Jcmalanco/Stars-of-the-city/archive/refs/heads/main.zip"
 }
