@@ -1,0 +1,23 @@
+{
+  "Actor": {
+    "character": {
+      "type": "character",
+      "name": "New Character",
+      "system": {
+        "hp": {
+          "value": 50,
+          "max": 50
+        },
+        "attributes": {
+          "might": 2,
+          "instinct": 4,
+          "will": 3
+        },
+        "ailments": {
+          "bleed": 0,
+          "burn": 0
+        }
+      }
+    }
+  }
+}
