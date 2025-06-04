@@ -1,30 +1,43 @@
 {
   "id": "stars-of-the-city",
   "title": "Stars of the City",
+  "version": "1.0.0",
   "description": "A narrative combat system for Foundry VTT inspired by Stars of the City.",
-  "version": "1.0.1",
-  "author": "Jcmalanco",
-  "url": "https://github.com/Jcmalanco/Stars-of-the-city",
+  "authors": [
+    {
+      "name": "Jcmalanco"
+    }
+  ],
+  "url": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt",
   "license": "MIT",
-  "readme": "https://github.com/Jcmalanco/Stars-of-the-city/blob/main/README.md",
-  "type": "system",
-  "system": "stars-of-the-city",
-  "coreVersion": "11",
-  "minimumCoreVersion": "11",
-  "compatibleCoreVersion": "12",
-  "templateVersion": 1,
-  "actorTypes": ["character"],
+  "readme": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt/blob/main/README.md",
+  "bugs": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt/issues",
+
+  "system": {
+    "name": "stars-of-the-city",
+    "title": "Stars of the City",
+    "id": "stars-of-the-city",
+    "version": "1.0.0",
+    "templateVersion": 1,
+    "minimumCoreVersion": "11",
+    "compatibleCoreVersion": "12",
+    "actorTypes": ["character"],
+    "primaryTokenAttribute": "hp",
+    "secondaryTokenAttribute": null
+  },
+
   "scripts": [
     "scripts/actor/character.js",
     "scripts/actor-sheet.js"
   ],
-  "styles": ["styles/sheet.css"],
+  "styles": [
+    "styles/sheet.css"
+  ],
   "packs": [],
-  "primaryTokenAttribute": "hp",
-  "secondaryTokenAttribute": null,
   "relationships": {
     "requires": []
   },
-  "manifest": "https://raw.githubusercontent.com/Jcmalanco/Stars-of-the-city/main/system.json",
-  "download": "https://github.com/Jcmalanco/Stars-of-the-city/archive/refs/heads/main.zip"
+
+  "manifest": "https://raw.githubusercontent.com/Jcmalanco/Stars-of-the-city-fvtt/main/system.json",
+  "download": "https://github.com/Jcmalanco/Stars-of-the-city-fvtt/archive/refs/heads/main.zip"
 }
